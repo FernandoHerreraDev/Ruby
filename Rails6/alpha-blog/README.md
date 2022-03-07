@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+Alpha Blog Aplication deployed: https://alpha-blog-6-fer.herokuapp.com/
