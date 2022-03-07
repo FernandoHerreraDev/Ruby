@@ -4,4 +4,5 @@ Rails.application.routes.draw do
                      #Para especificar un metodo dentro del controller se le pone un # como esta puesto ahorita
 
   root 'pages#home'
+  get 'about', to: 'pages#about'
 end
