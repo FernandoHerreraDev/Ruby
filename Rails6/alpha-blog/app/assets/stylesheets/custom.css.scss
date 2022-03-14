@@ -1,0 +1,57 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+.navbar {
+  background-color: #000000 !important;
+  color: white;
+} 
+
+.nav-link {
+    color: white !important;
+}
+
+#logo {
+    color: white !important;
+    float: left;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#home-container {
+    margin-top: 2%;
+}
+
+.jumbotron {
+    background-image: asset-url('imladris.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.page-content {
+    flex: 1 0 auto;
+    background-color: lightgray;
+}
+
+#sticky-footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    
+}
+
+.new-button-float {
+    position: fixed;
+    bottom: 75%;
+    border-radius: 20px;
+    left: 85%;
+    
+    
+}
